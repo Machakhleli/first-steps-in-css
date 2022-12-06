@@ -7,7 +7,7 @@
   width: 100%;
   display: flex;
   margin-top: 15px;
-  margin-left: 500px;
+  margin-left: 400px;
   position: absolute;
 }
 .logo img {
@@ -19,7 +19,7 @@ ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 li {
@@ -35,7 +35,7 @@ li {
   color: #9893a3;
 }
 .buttons {
-  margin-left: 400px;
+  margin-left: 300px;
   font-size: 20px;
 }
 .btn_login {
@@ -49,7 +49,7 @@ li {
   margin-top: 10px;
   font-size: medium;
 }
-.btn-GetStarted {
+.btn-getstarted {
   width: 100px;
   height: 50px;
   padding: 7px;
@@ -62,12 +62,12 @@ li {
 #section1 {
   width: 100%;
   position: absolute;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 150px;
 }
 .row {
   display: flex;
-  margin-left: 500px;
+  margin-left: 400px;
 }
 .container p,
 button {
@@ -94,17 +94,38 @@ button {
   font-size: medium;
 }
 .hero-image img {
-  /* width: 100%;
-  height: 80%; */
-  margin-left: 200px;
+  margin-left: 100px;
   border-bottom: 3px solid #cfcfde;
   position: absolute;
 }
-#section2{width: 100%;
-position: absolute;
-margin-top: 800px;
-margin-left: 500px;}
-/* .logos img {
+#section2 {
   display: flex;
-  /* position:absolute; */
-  /* font-size: 5px; */
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 500px;
+  border: 0;
+}
+.logos {
+  display: flex;
+  margin-left: 100px;
+  width: 100px;
+}
+.logos img {
+  margin: 50px;
+  margin-top: 15px;
+  width: 100px;
+}
+.image {
+  width: 300px;
+}
+#section3 {
+  width: 100%;
+}
+.sec3 {
+  width: 100%;
+  position: absolute;
+  margin-top: 900px;
+  margin-left: 500px;
+  padding: 120px 0;
+}
+
