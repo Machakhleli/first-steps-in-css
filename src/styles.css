@@ -47,6 +47,7 @@ li {
   border-color: #6c63ff;
   border-width: 1px;
   margin-top: 10px;
+  font-size: medium;
 }
 .btn-GetStarted {
   width: 100px;
@@ -56,6 +57,7 @@ li {
   border-color: #6c63ff;
   background-color: #6c63ff;
   margin-top: 10px;
+  font-size: medium;
 }
 #section1 {
   width: 100%;
@@ -89,6 +91,7 @@ button {
   background-color: #6c63ff;
   border: 20px;
   color: #ffffff;
+  font-size: medium;
 }
 .hero-image img {
   /* width: 100%;
