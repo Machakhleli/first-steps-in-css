@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
   width: 100%;
   display: flex;
   margin-top: 15px;
-  margin-left: 100px;
+  margin-left: 500px;
+  position: absolute;
 }
-.logo {
-  font-size: 30px;
-  font-weight: bold;
+.logo img {
+  width: 100%;
   margin-left: 50px;
 }
 
@@ -30,21 +31,77 @@ li.home {
   padding-bottom: 5px;
   border-bottom: 4px solid #9e99ff;
 }
-li{color:#9893A3}
+li {
+  color: #9893a3;
+}
 .buttons {
   margin-left: 400px;
-  font-size: 30px;
+  font-size: 20px;
 }
 .btn_login {
+  width: 70px;
+  height: 50px;
   background-color: #f2f2f2;
-  padding: 13px;
+  padding: 7px;
   color: #6c63ff;
   border-color: #6c63ff;
   border-width: 1px;
+  margin-top: 10px;
 }
 .btn-GetStarted {
-  padding: 13px;
+  width: 100px;
+  height: 50px;
+  padding: 7px;
   color: #ffff;
   border-color: #6c63ff;
   background-color: #6c63ff;
+  margin-top: 10px;
 }
+#section1 {
+  width: 100%;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.row {
+  display: flex;
+  margin-left: 500px;
+}
+.container p,
+button {
+  margin-top: 40px;
+}
+.text {
+  font-size: 80px;
+  color: #2f2e41;
+}
+p {
+  width: 500px;
+  margin-top: 15px;
+  color: #9893a3;
+  font-size: 20px;
+  font-weight: 15px;
+}
+button {
+  width: 100px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #6c63ff;
+  border: 20px;
+  color: #ffffff;
+}
+.hero-image img {
+  /* width: 100%;
+  height: 80%; */
+  margin-left: 200px;
+  border-bottom: 3px solid #cfcfde;
+  position: absolute;
+}
+#section2{width: 100%;
+position: absolute;
+margin-top: 800px;
+margin-left: 500px;}
+/* .logos img {
+  display: flex;
+  /* position:absolute; */
+  /* font-size: 5px; */
