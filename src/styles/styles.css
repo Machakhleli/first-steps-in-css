@@ -226,17 +226,66 @@ button {
   margin-top: 3100px;
   margin-left: 350px;
   padding: 120px 0;
+  gap: 30px;
 }
-.free { 
+.free {
   width: 400px;
   height: 450px;
   background-color: rgba(236, 235, 255, 0.3);
+  margin-top: 50px;
 }
-.free ol{ 
+.free ol {
   justify-content: space-evenly;
   margin-top: 30px;
   text-align: center;
-  list-style-type:none;
+  list-style-type: none;
 }
-.free span{color: black;}
+.gs1 {
+  background-color: rgba(236, 235, 255, 0.3);
+  border-radius: 15px;
+  border-color: #6c63ff;
+}
+.free button {
+  width: 100px;
+  height: 8px;
+  color: #6c63ff;
+}
 
+.for-free {
+  color: black;
+}
+.premium {
+  width: 400px;
+  height: 450px;
+  margin-top: 10px;
+  background-color: #6c63ff;
+}
+.list2 li {
+  color: #ffffff;
+}
+.premium ol {
+  justify-content: space-evenly;
+  margin-top: 30px;
+  text-align: center;
+  list-style-type: none;
+}
+.enterprise {
+  margin-top: 50px;
+  background-color: #ecebff;
+  width: 400px;
+  height: 450px;
+}
+.enterprise ol {
+  justify-content: space-evenly;
+  margin-top: 30px;
+  text-align: center;
+  list-style-type: none;
+}
+.gs3 {
+  background-color: rgba(236, 235, 255, 0.3);
+  border-radius: 15px;
+  border-color: #6c63ff;
+}
+.enterprise button {
+  color: #6c63ff;
+}
